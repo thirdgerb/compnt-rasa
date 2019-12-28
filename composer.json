@@ -1,0 +1,28 @@
+{
+    "name": "commune/compnt-rasa",
+    "description": "component using rasa as nlu for commune/chatbot",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thirdgerb",
+            "email": "thirdgerb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Commune\\Components\\Rasa\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "commune/chatbot": "dev-develop"
+    },
+    "repositories": [
+      {
+          "type" : "path",
+          "url": "../chatbot/"
+      }
+    ]
+}
