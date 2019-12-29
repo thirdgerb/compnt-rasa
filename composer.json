@@ -9,7 +9,6 @@
             "email": "thirdgerb@gmail.com"
         }
     ],
-    "minimum-stability": "RC",
     "autoload": {
         "psr-4": {
             "Commune\\Components\\Rasa\\": "src/"
@@ -17,6 +16,6 @@
     },
     "require": {
         "php": ">=7.2",
-        "commune/chatbot": "~0.1.0"
+        "commune/chatbot": "~0.1.0@dev"
     }
 }
